@@ -1,0 +1,25 @@
+{
+  "name": "cottton/bug-test-repository",
+  "description": "A test repository for bug testing",
+  "type": "project",
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+    "phalcon/ide-stubs": "v5.8.0",
+    "fzaninotto/faker": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cottton\\BugTestRepository\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "your.email@example.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
